@@ -1,4 +1,4 @@
-const createTargetArray = (nums, index) => {
+export const createTargetArray = (nums, index) => {
   const target = []
 
   for(let i = 0; i < nums.length; i++){
@@ -6,3 +6,5 @@ const createTargetArray = (nums, index) => {
   }
   return target
 };
+
+
