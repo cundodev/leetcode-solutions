@@ -1,10 +1,10 @@
+//1380. Lucky Numbers in a Matrix
+
 export const createTargetArray = (nums, index) => {
-  const target = []
+  const target = [];
 
-  for(let i = 0; i < nums.length; i++){
-      target.splice(index[i],0,nums[i])
+  for (let i = 0; i < nums.length; i++) {
+    target.splice(index[i], 0, nums[i]);
   }
-  return target
+  return target;
 };
-
-
