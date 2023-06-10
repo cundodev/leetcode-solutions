@@ -1,6 +1,6 @@
 //1380. Lucky Numbers in a Matrix
 
-export const luckyNumbers = function (matrix) {
+export const luckyNumbers = (matrix) => {
   return (
     matrix
       //filtrar las columnas que no contengan al Lucky Number
