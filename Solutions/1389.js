@@ -1,4 +1,4 @@
-// 1380. Lucky Numbers in a Matrix
+// 1389. Create Target Array in the Given Order
 
 export const createTargetArray = (nums, index) => {
   const target = []
