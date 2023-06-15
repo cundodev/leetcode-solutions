@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { createTargetArray } from "./1389";
-
+import { createTargetArray } from "/solutions/1389.js";
 describe("correct_values", () => {
   it("valid_output_1", () => {
     const nums = [1, 2, 3];

@@ -9,6 +9,7 @@
   "author": "facindito",
   "license": "ISC",
   "devDependencies": {
-    "vitest": "^0.32.0"
+    "standard": "17.1.0",
+    "vitest": "0.32.0"
   }
 }
