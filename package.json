@@ -6,10 +6,15 @@
   "scripts": {
     "test": "vitest"
   },
-  "author": "facindito",
+  "author": "cundodev",
   "license": "ISC",
   "devDependencies": {
-    "standard": "17.1.0",
-    "vitest": "0.32.0"
+    "vitest": "0.32.0",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ]
   }
 }
