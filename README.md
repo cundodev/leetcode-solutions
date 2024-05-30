@@ -2,10 +2,11 @@
 
 ## LeetCode Problems
 
-| #   | Title                                                                                     | Topics  | Difficulty | Solution |
-| --- | ----------------------------------------------------------------------------------------- | ------- | ---------- | -------- |
-| 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | `Array` |
+| #   | Title                                                                                     | Topics | Difficulty | Solution |
+| --- | ----------------------------------------------------------------------------------------- | ------ | ---------- | -------- |
+| 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |
 
+`Array`
 `Binary Search`
 `Divide and Conquer` | Hard | [JavaScript](https://github.com/cundodev/leetcode-solutions/blob/master/Solutions/4.js) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | | Medium | [JavaScript](https://github.com/cundodev/leetcode-solutions/blob/master/Solutions/7.js) |
