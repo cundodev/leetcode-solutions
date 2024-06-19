@@ -35,14 +35,16 @@ function romanToInt2(s: string): number {
     M: 1000,
   }
   for (let i = 0; i < s.length; i++) {
-    const isDivByFive = values[s[i]] / 5 === values[s[i - 1]]
-    const isDivByTen = values[s[i]] / 10 === values[s[i - 1]]
-    const result = values[s[i]] - 2 * values[s[i - 1]]
+    const isDivByFive = values[s[i + 1]] / 5 === values[s[i]]
+    const isDivByTen = values[s[i + 1]] / 10 === values[s[i]]
+    const result = values[s[i + 1]] - values[s[i]]
 
-    if (isDivByFive) {
+    if (i < s.length && isDivByFive) {
       num += result
-    } else if (isDivByTen) {
+      i++
+    } else if (i < s.length && isDivByTen) {
       num += result
+      i++
     } else {
       num += values[s[i]]
     }
