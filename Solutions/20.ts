@@ -1,6 +1,6 @@
 // 20. Valid Parentheses
 function isValid(s: string): boolean {
-  const matchBrackets = {
+  const matchBrackets: { [key: string]: string } = {
     '(': ')',
     '{': '}',
     '[': ']',
