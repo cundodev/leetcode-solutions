@@ -25,17 +25,18 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
   mtsl.sort((a, b) => a - b)
 
   //creating ordered list
-  let list = new ListNode()
-  let temp = list
+  let temp = new ListNode()
+  const list = temp
 
   for (let u of mtsl) {
-    list.next = new ListNode(u)
-    list = list.next
+    temp.next = new ListNode(u)
+    temp = temp.next
   }
 
-  return temp.next
+  return list.next
 }
 
+// Examples
 const aList1 = [1, 2, 4]
 const aList2 = [1, 3, 4]
 
