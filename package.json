@@ -9,13 +9,13 @@
   "author": "cundodev",
   "license": "ISC",
   "devDependencies": {
-    "standard": "17.1.0",
+    "ts-standard": "^12.0.2",
     "typescript": "^5.5.2",
     "vitest": "0.32.0"
   },
   "eslintConfig": {
     "extends": [
-      "standard"
+      "ts-standard"
     ]
   }
 }
